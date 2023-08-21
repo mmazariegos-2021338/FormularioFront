@@ -4,22 +4,30 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .logo {
+ 
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
   margin-left: auto; /* Alinea el logo a la derecha */
   margin-top: -0.5em;
+
+}
+
+.logoDrama{
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #ffffff);
 }
 
 @keyframes logo-spin {
@@ -44,3 +52,62 @@
 .read-the-docs {
   color: #61dafbaa;
 }
+
+ /* Agrega estilos para los elementos del formulario */
+ .form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-size: 1.2em;
+  color: #f3f6f8;
+  
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid  #d4d2ce;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #252323;
+}
+
+.form-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f1efeb;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #252323;
+}
+
+.form-button {
+  background-color: #1f1f22;
+  color: #ecedf8;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+position: relative;
+}
+
+.form-button:hover {
+  background-color: #c58815;
+}
+
+.center-button-container {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px; 
+}
+
+
+
+
